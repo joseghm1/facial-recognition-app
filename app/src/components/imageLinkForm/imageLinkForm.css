@@ -1,0 +1,30 @@
+:root {
+  --c1: #8869f7;
+  --c2: #490bf4;
+  --s: 42px;
+}
+
+.form{
+    width: 700px;
+      background:
+    conic-gradient(
+      var(--c2) atan(2), var(--c1) 0 calc(180deg - atan(2)),
+      var(--c2) 0 180deg,var(--c1) 0 calc(180deg + atan(2)),
+      var(--c2) 0 calc(360deg - atan(2)),var(--c1) 0);
+  background-size: calc(2*var(--s)) var(--s);
+
+}
+
+  
+html {
+  --s: 76px; /* control the size*/
+  --c1: #;
+  --c2: ;
+  
+  background:
+    conic-gradient(
+      var(--c2) atan(2), var(--c1) 0 calc(180deg - atan(2)),
+      var(--c2) 0 180deg,var(--c1) 0 calc(180deg + atan(2)),
+      var(--c2) 0 calc(360deg - atan(2)),var(--c1) 0);
+  background-size: calc(2*var(--s)) var(--s);
+}
